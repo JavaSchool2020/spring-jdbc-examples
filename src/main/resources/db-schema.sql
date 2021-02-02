@@ -1,0 +1,6 @@
+CREATE TABLE ACCOUNT(
+ id NUMBER(4),
+ BALANCE NUMBER(5)
+);
+
+INSERT INTO ACCOUNT (id, balance) values (1, 1000), (2, 0);
